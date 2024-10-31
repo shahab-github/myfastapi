@@ -1,5 +1,5 @@
-# Use a slim Python 3.10 base image
-FROM python:3.10-slim
+# Use a slim Python 3.13 base image
+FROM python:3.13-alpine
 
 # Set environment variables for production
 ENV PYTHONDONTWRITEBYTECODE=1 \
