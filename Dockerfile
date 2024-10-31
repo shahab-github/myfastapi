@@ -2,8 +2,8 @@
 FROM python:3.13-alpine
 
 # Set environment variables for production
-ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1
+# ENV PYTHONDONTWRITEBYTECODE=1 \
+#     PYTHONUNBUFFERED=1
 
 # Set the working directory
 WORKDIR /app
